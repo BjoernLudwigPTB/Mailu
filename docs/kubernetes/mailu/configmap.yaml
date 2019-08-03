@@ -30,7 +30,7 @@
     # Main mail domain
     DOMAIN: "example.com"
 
-    # Hostnames for this server, separated with comas
+    # Hostnames for this server, separated with commas
     HOSTNAMES: "mail.example.com"
 
     # Postmaster local part (will append the main mail domain)
