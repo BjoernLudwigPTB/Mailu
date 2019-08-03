@@ -118,7 +118,7 @@ optional port number. Those variables are:
 - ``HOST_HOSTIMAP``: the container that is running the IMAP server for the webmail (default: ``imap``, port 10143)
 - ``HOST_POP3``: the container that is running the POP3 server (default: ``imap``, port 110)
 - ``HOST_SMTP``: the container that is running the SMTP server (default: ``smtp``, port 25)
-- ``HOST_AUTHSMTP``: the container that is running the authenticated SMTP server for the webnmail (default: ``smtp``, port 10025)
+- ``HOST_AUTHSMTP``: the container that is running the authenticated SMTP server for the webmail (default: ``smtp``, port 10025)
 - ``HOST_ADMIN``: the container that is running the admin interface (default: ``admin``)
 - ``HOST_ANTISPAM``: the container that is running the antispam service (default: ``antispam:11334``)
 - ``HOST_WEBMAIL``: the container that is running the webmail (default: ``webmail``)
