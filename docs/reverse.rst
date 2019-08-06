@@ -25,7 +25,7 @@ The simplest and safest option is to modify the port forwards for Mailu Web fron
     # build: nginx
     image: mailu/nginx:$VERSION
     restart: always
-    env_file: .env
+    env_file: mailu.env
     ports:
       - "127.0.0.1:8080:80"
       - "127.0.0.1:8443:443"
@@ -207,7 +207,7 @@ Then modify your ``docker-compose.yml`` file and change the ``front`` section to
     build: nginx
     image: mailu/nginx:$VERSION
     restart: always
-    env_file: .env
+    env_file: mailu.env
     ports:
       [...]
     volumes:
